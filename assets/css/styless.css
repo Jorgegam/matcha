@@ -4,3 +4,191 @@
     box-sizing: border-box;
 }
 
+/*----------------- Estilos Header ---------------------*/
+header{
+    width: 87%;
+    margin: 27px auto ;
+    height: 123px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 1px solid black;
+}
+
+header .logo{
+    width: 90%;
+    margin: auto 0px;
+    border: 1px solid black;
+}
+
+header .nav {
+    border: 1px solid black;
+}
+
+.nav{
+    height: 100%;
+}
+
+.nav ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 33px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #025157;
+    transition: 0.1s;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid#025157;
+}
+
+header .sign-get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header .sign-get > *{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+header .sign-in{
+    color: #025157;
+    font-weight: 1000;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-size: 14px;
+    transition: 0.1s;
+}
+
+header .sign-in:hover {
+    border-bottom: 2px solid#025157;
+}
+
+header .gsf {
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+header .gsf:hover{
+    background: #67b54b;
+}
+
+/*----------------- Estilos Main ---------------------*/
+
+main{
+    width: 97%;
+    height: 705px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 35px;
+    border: 1px solid black;
+}
+
+main #intro{    
+    padding-top: 45px;
+    border: 1px solid black;
+}
+
+main #intro #title {
+    font-size: 60px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    color: #025157;
+    margin-bottom: 24px;
+    letter-spacing: -3px;
+    line-height: 63px;
+    font-size: 68px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+main #intro .p-big{
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    line-height: 31px;
+    font-size: 20px;
+    color: #46484c;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+main .sign-up #sft {
+    margin: 20px 20px 20px 0px;
+    padding: 10px 24px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #67b54b;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    
+}
+
+main #intro .p-small{
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    color: #4e4d4dcc;
+}
+
+main .sign-up img {
+    vertical-align: middle;
+}
+    
+main #video{
+    padding-top: 20px;
+    text-align: left;
+    border: 1px solid black;
+}
+main #video img{
+
+   width: 90%;
+   height: 95%;
+}
+
+main .customers{
+    grid-column: 1 / span 2;
+    width: 75%;
+    margin: 60px auto 60px auto;
+    border: 1px solid black;
+}
+
+main .customers p:first-child{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    opacity: .4;
+    margin-bottom: 40px;
+}
+
+main .customers .logo-customers{ 
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
