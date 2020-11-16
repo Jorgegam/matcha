@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /*----------------- Estilos Header ---------------------*/
 header{
     width: 87%;
@@ -192,3 +193,268 @@ main .customers .logo-customers{
     align-items: flex-end;
 }
 
+.t-card{
+    padding: 40px 18px;
+    height: 335px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.tools-cards .t-card img {
+    max-width: 38px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tools-cards .t-card h2 {
+    font-size: 19px;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.tools-cards .t-card p {
+    font-size: 17px;
+    color: #7e7e7e;
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+/* --------------------- Container Features --------------- */
+.container-features{
+    padding: 120px 0px;
+    width: 97%;
+    margin: 0px auto;
+    height: 800px;
+    border: 1px solid black;
+}
+
+
+.container-features .titulo h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.container-features .titulo p{
+    opacity: .5;
+    font-size: 18px;
+    font-family: "IBM Plex Sans", Arial,  sans-serif;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+}
+
+.container-features .container-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    height: 100px;
+}
+.container-features .container-cards img{
+    width: 410px;
+    height: 270px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.container-features .card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-features .card h3{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    margin-bottom: 20px;
+}
+
+.container-features .card p{
+    text-align: center;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    font-size: 19px;
+    color: #4a4a4a;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* --------------------- Container Tools --------------- */
+
+.container-tools{
+    padding: 120px 0px;
+    width: 97%;
+    margin: 0px auto;
+    height: 653px;
+    border: 1px solid black;
+}
+
+.container-tools .titulo{
+    width: 100%;
+    font-size: 26px;
+    line-height: 1;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400;
+    color: #025157;
+    border: 1px solid black;
+}
+
+.container-tools .tools-cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    border: 1px solid black;
+}
+
+
+/* --------------------- Container Brands --------------- */
+
+.container-brands{
+    width: 95.5%;
+    padding: 120px 9px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    border: 1px solid black;
+}
+
+.container-brands .b-card{
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid black;
+}
+.container-brands .card-bg-image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 2;
+}
+.container-brands .content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+}
+
+.container-brands .card-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "IBM Plex Sans", Arial,  sans-serif;
+    margin-bottom: 15px;
+    line-height: 20px;
+    color: #025157;
+    width: 100%;
+    text-align: left;
+}
+
+.container-brands .customer-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: "IBM Plex Sans", Arial,  sans-serif;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.container-brands .icon {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.container-brands .icon > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container-brands .icon img{
+    width: 26px;
+    height: 26px;
+    margin-right: 15px;
+}
+
+.container-brands .card-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: -.5px;
+    color: #828282;
+    margin-right: 20px;
+}
+
+.content-card a{
+    width: 100%;
+    padding: 12px 20px;
+    background: #025157;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    font-family: "IBM Plex Sans", Arial,  sans-serif;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-brands .brand-txt{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid black;
+    padding: 0px 15px;
+}
+
+.container-brands .brand-txt .titulo{
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400!important;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.brand-txt .card-text > *{
+    font-size: 18px;
+    font-family: "IBM Plex Sans", Arial,  sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.brand-txt a{
+    width: 25%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+}
